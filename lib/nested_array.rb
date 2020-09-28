@@ -37,7 +37,8 @@ end
 
 
 def matrix_lookup(matrix, row, column)
-  matrix_lookup = sorted_matrix[1][3]
+  matrix_lookup = sorted_matrix = [CONVENTIONAL_PRODUCE.sort, ORGANIC_PRODUCE.sort][1][1]
+  #sorted_matrix[1][3]
   
   # Given any matrix (array of arrays), a row index and a column index, 
   # Return the matrix's content at that row and and column
