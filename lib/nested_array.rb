@@ -18,8 +18,9 @@ CONVENTIONAL_PRODUCE = [
 
 def assembled_matrix 
   assembled_matrix = [
-  ["Strawberries","Potatoes","Grapes","Avocadoes","Asparagus"],
-  ["Grapefruit","Pineapple","Oranges","Watermelon","Eggplant"]]
+    [ORGANIC_PRODUCE], [CONVENTIONAL_PRODUCE]]
+  #["Strawberries","Potatoes","Grapes","Avocadoes","Asparagus"],
+ #["Grapefruit","Pineapple","Oranges","Watermelon","Eggplant"]]
 end
 
   # Build an array that contains both of the above arrays
