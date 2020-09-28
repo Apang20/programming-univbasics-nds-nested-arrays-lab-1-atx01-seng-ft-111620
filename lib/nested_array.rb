@@ -37,7 +37,7 @@ end
 
 
 def matrix_lookup(matrix, row, column)
- assembled_matrix[1][1]
+ assembled_matrix[1][3]
  sorted_matrix[1][1]
   #[CONVENTIONAL_PRODUCE.sort, ORGANIC_PRODUCE.sort][1][1]
   #sorted_matrix[1][3]
