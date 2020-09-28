@@ -34,7 +34,11 @@ def sorted_matrix
   # However, this time, sort each internal array alphabetically by the first character
 end
 
+
+
 def matrix_lookup(matrix, row, column)
+  matrix_lookup = assembled_matrix[1][1]
+  
   # Given any matrix (array of arrays), a row index and a column index, 
   # Return the matrix's content at that row and and column
 end
